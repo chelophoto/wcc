@@ -1,6 +1,6 @@
-first_name = 'Ariel'
-last_name = 'Brewer'
+age = 30
+next_age = age + 1
+birth_month = 'August'
+birth_stone = 'peridot'
 
-print ('Student first name:' + first_name)
-print('Student last name:' + last_name)
-print('Student name: ' + first_name + ' ' + last_name )
+print("Ariel is " + str(age) + " years old now, but she'll turn " + str(next_age) + " in " + (birth_month) + ". Her birth stone is " + (birth_stone) + ".")
